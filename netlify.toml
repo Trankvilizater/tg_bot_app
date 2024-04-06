@@ -1,4 +1,4 @@
 [[redirects]]
-    from = "/*"
-    to = "/index.html"
+    from = "/src/components/ProductList"
+    to = "/src/components/Form"
     status = 200
