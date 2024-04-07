@@ -4,7 +4,7 @@ import './ProductList.css';
 const ProductList = () => {
 
     return (
-        <div>
+        <div className="texter">
             ProductList
         </div>
     );
