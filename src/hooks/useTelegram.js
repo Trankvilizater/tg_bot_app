@@ -10,7 +10,7 @@ export function useTelegram() {
         if (tg.MainButton.isVisible) {
             tg.MainButton.hide();
         }   else {
-                tg.MainButton.show();
+            tg.MainButton.show();
         }
     }
 
@@ -19,6 +19,7 @@ export function useTelegram() {
         onToggleButton,
         tg,
         user: tg.initDataUnsafe?.user,
+        queryId: tg.initDataUnsafe?.queryId,
     }
 }
 
